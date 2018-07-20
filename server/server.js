@@ -23,7 +23,7 @@ io.on('connection',(socket)=>{
     });
     socket.on('disconnect',()=>{
         console.log('user got Disconnected');
-    });  
+    });   
  });
 
 server.listen(port,()=>{
